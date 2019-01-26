@@ -1,0 +1,26 @@
+/*
+Theme Name: Popper Child Theme
+Theme URI: http://tonomoshia.com/popper-child-theme
+Description: A child theme of Morten's awesome Popper Theme
+Author: Elizabeth Reiher
+Author URI: https://tonomoshia.com
+Template: popper
+Version: 0.1.0
+*/
+
+@import url("../popper/style.css");
+
+.site-title {
+  font-weight: 300;
+}
+
+.site-description {
+  font-style: italic;
+}
+
+@media screen and (min-width: 30em) {
+  .entry-meta {
+    margin: 0 -1.894736842105263em;
+    background-color: pink;
+}
+}
